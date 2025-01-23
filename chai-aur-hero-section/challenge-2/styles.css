@@ -1,0 +1,214 @@
+:root {
+  --primary-blue: #3b82f6;
+  --primary-blue-dark: #2563eb;
+  --gray-800: #1f2937;
+  --neutral-400: #9ca3af;
+  --neutral-900: #111827;
+
+  /* Dark mode variables */
+  --bg-dark: #111827;
+  --text-dark: #ffffff;
+  --border-dark: #374151;
+}
+
+body {
+  
+}
+
+.dark{
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+  
+}
+#darkModeToggle{
+  margin-top: 10%;
+  margin-left:1340px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #9ca3af; 
+  background-color: var(--primary-blue-dark);
+  color: white;
+  
+  
+  
+}
+
+.hero {
+  
+
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.hero-grid {
+  display: flex;
+  
+  gap: 50px;
+  
+  
+  
+
+}
+
+
+.content-col h1 {
+  margin: 0;
+  font-size: 60px;
+    
+}
+
+.content-col p {
+  font-size: 18px;
+  
+}
+
+.cta-group {
+  display: flex;
+  gap: 15px;
+  
+}
+
+.sr-only {
+  display: none;
+}
+
+.input-wrapper {
+  
+  border-radius: 5px;
+  border: 1px solid #9ca3af;
+  overflow: hidden;
+
+}
+
+input[type='text'] {
+  padding: 10px 9px 10px 9px;
+  outline: none;
+  border: none;
+   
+}
+
+.demo-button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #9ca3af; 
+  background-color: var(--primary-blue);
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.demo-button:hover {
+  background-color: var(--primary-blue-dark);
+}
+
+.brands-section {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.trusted-by {
+  font-size: 14px;
+
+  text-transform: uppercase;
+}
+
+.brand-logos {
+  
+  
+  margin-top: 0px;
+  display: flex;
+  
+  align-items: center;
+  gap: 20px;
+}
+
+.brand-logo {
+  width: 70px;
+  
+}
+
+.image-col {
+  
+
+
+}
+
+.hero-image {
+  width: 480px;
+  border-radius: 15px;
+}
+
+@media (min-width: 640px) {
+  .hero {
+  }
+
+  .content-col h1 {
+  }
+
+  .cta-group {
+  }
+
+  .demo-button {
+  }
+
+  .input-wrapper {
+  }
+
+  input[type='text'] {
+  }
+}
+
+@media (min-width: 768px) {
+  .content-col h1 {
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+  }
+
+  .hero-grid {
+  }
+
+  .content-col h1 {
+  }
+
+  .cta-group {
+  }
+
+  .brands-section {
+  }
+
+  .image-col {
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero-grid {
+    
+  }
+}
+
+.dark-mode-toggle {
+}
+
+.dark-mode-toggle:hover {
+}
+
+body.dark {
+}
+
+.dark-mode-toggle {
+}
+
+.dark-mode-toggle:hover {
+}
+
+input[type='text'].dark {
+}
+
+input[type='text']::placeholder {
+}
